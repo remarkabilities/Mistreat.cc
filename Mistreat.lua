@@ -1,3 +1,5 @@
+script_key="key here";
+
 getgenv().Mistreat = {
     Intro = false,
     Silent = {
