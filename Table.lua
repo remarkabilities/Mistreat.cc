@@ -3,9 +3,11 @@ script_key="key here";
 getgenv().Mistreat = {
     Intro = false,
     Silent = {
-        hitParts = {"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso"},
-        FOV = 30,
-        Prediction = 0.125,
+        hitParts = {"Head", "LowerTorso"},
+        AirParts = {"Head"},
+        UseAirParts = true,
+        FOV = 100,
+        Prediction = 0.1,
         knockCheck = true,
     },
     Camlock = {
